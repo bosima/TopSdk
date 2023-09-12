@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Top.Api</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <AssemblyTitle>TOP SDK for .NET</AssemblyTitle>
+    <Description>钉钉老版本API接入SDK，基于官方版本改造，项目框架调整为 .netstandard 2.0，增加异步请求接口。</Description>
+    <Company>TAOBAO.COM</Company>
+    <Product>TopSdk</Product>
+    <Copyright>Copyright © Taobao 2016</Copyright>
+    <AssemblyVersion>1.0.1</AssemblyVersion>
+    <FileVersion>1.0.1</FileVersion>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>TopSdk.NetStandard</PackageId>
+    <Title>钉钉旧版服务端SDK改造版：项目框架 .netstandard 2.0；支持异步接口。</Title>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <Version>1.0.0</Version>
+    <Authors>TopSdk, bosima</Authors>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.SystemWebAdapters" Version="1.1.0" />
+    <PackageReference Include="StandardSocketsHttpHandler" Version="2.2.0.5" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="7.0.0" />
+    <PackageReference Include="System.Reflection.Emit.Lightweight" Version="4.7.0" />
+  </ItemGroup>
+</Project>
