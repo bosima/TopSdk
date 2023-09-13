@@ -11,10 +11,10 @@
     <Company>TAOBAO.COM</Company>
     <Product>TopSdk</Product>
     <Copyright>Copyright © Taobao 2016</Copyright>
-    <AssemblyVersion>1.0.1</AssemblyVersion>
-    <FileVersion>1.0.1</FileVersion>
+    <AssemblyVersion>1.0.0</AssemblyVersion>
+    <FileVersion>1.0.0</FileVersion>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <PackageId>TopSdk.NetStandard</PackageId>
+    <PackageId>FireflySoft.TopSdk</PackageId>
     <Title>钉钉旧版服务端SDK改造版：项目框架 .netstandard 2.0；支持异步接口。</Title>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <Version>1.0.0</Version>
